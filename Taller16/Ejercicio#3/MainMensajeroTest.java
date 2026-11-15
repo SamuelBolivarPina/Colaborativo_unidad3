@@ -9,6 +9,10 @@ public class MainMensajeroTest {
         // 1. Enviando mediante Email (Extensión 1)
         Mensajero mensajeroEmail = new MensajeEmail();
         mensajeroEmail.enviar(destinatarioEmail, mensajeTexto);
+
+        // 2. Enviando mediante SMS (Extensión 2)
+        Mensajero mensajeroSMS = new MensajeroSMS();
+        mensajeroSMS.enviar(destinatarioSMS, mensajeTexto);
     }
 }
 
