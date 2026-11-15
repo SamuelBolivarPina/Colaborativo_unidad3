@@ -9,4 +9,10 @@ public class MainTransporteLSP {
         procesarMovimiento(transporte1);
         procesarMovimiento(transporte2);
     }
+    // Método que opera estrictamente con la clase base, cumpliendo el LSP
+    public static void procesarMovimiento(Transporte transporte) {
+        System.out.println("Procesando viaje para: " + transporte.getNombre());
+        transporte.mover(); // Ejecuta polimórficamente el comportamiento correcto sin sorpresas
+        System.out.println("--------------------------------------------------");
+    }
 }
