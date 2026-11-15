@@ -8,5 +8,9 @@ public class MainExploradorTest {
         // 2. Exportamos usando el formato PDF (Extensión 1)
         Explorador exportadorPDF = new ExploradorPDF();
         exportadorPDF.exportar(miDocumento);
+
+        // 3. Exportamos usando el formato Word (Extensión 2)
+        Explorador exportadorWord = new ExploradorWord();
+        exportadorWord.exportar(miDocumento);
     }
 }
