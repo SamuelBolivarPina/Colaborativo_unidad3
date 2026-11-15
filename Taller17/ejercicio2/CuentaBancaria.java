@@ -20,4 +20,7 @@ public class CuentaBancaria {
             System.out.println("Fondos insuficientes o monto inválido.");
         }
     }
+    public double getSaldo() {
+        return saldo;
+    }
 }
