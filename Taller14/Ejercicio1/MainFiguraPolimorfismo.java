@@ -3,7 +3,7 @@ public class MainFiguraPolimorfismo {
         System.out.println("--- PRUEBA TALLER 14: POLIMORFISMO EN FIGURAS ---");
 
         // Referencia de la clase base apuntando a un objeto Circulo
-        Figura miFigura = new Circulo(4.0);
+        FIgura miFigura = new Circulo(4.0);
         miFigura.calcularArea(); // Ejecuta el método de Circulo
 
         // La misma referencia ahora apunta a un objeto Rectangulo (Polimorfismo dinámico)
