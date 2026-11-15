@@ -7,4 +7,7 @@ public class Transporte {
     public void mover() {
         System.out.println("El medio de transporte " + nombre + " se está desplazando.");
     }
+    public String getNombre() {
+        return nombre;
+    }
 }
