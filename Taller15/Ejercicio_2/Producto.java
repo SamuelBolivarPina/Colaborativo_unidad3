@@ -6,4 +6,7 @@ public class Producto {
         this.nombre = nombre;
         this.precioBase = precioBase;
     }
+    public String getNombre(){return nombre;}
+    public double getPrecioBase(){return  precioBase;}
 }
+
