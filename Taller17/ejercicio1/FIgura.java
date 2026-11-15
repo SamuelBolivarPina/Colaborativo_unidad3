@@ -1,4 +1,4 @@
 public abstract class FIgura {
-    public abstract double area();
+    public abstract double calculararea();
 }
 
