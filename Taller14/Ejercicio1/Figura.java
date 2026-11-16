@@ -1,3 +1,4 @@
+package Taller14.Ejercicio1;
 public class Figura {
     // Método base que será sobrescrito por las clases hijas
     public void calcularArea() {
